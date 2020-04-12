@@ -1,15 +1,14 @@
-package barber.controller.command.info;
+package com.barber.controller.command.error;
 
 import com.barber.controller.command.Command;
 import com.barber.controller.data.Page;
 
 import javax.servlet.http.HttpServletRequest;
+import static com.barber.controller.PageUrlConstants.NOT_FOUND_PAGE;
 
-import static com.barber.controller.PageUrlConstants.HOME_PAGE;
-
-public class HomeCommand implements Command {
+public class NotFoundCommand implements Command {
     @Override
     public Page perform(HttpServletRequest request) {
-        return new Page(HOME_PAGE);
+        return new Page(NOT_FOUND_PAGE);
     }
 }

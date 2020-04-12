@@ -1,16 +1,15 @@
-package barber.controller.command.info;
+package com.barber.controller.command.info;
 
 import com.barber.controller.command.Command;
 import com.barber.controller.data.Page;
 
 import javax.servlet.http.HttpServletRequest;
 
-import static com.barber.controller.PageUrlConstants.SERVICE_PAGE;
+import static com.barber.controller.PageUrlConstants.CONTACT_PAGE;
 
-
-public class ServiceCommand implements Command {
+public class ContactCommand implements Command {
     @Override
     public Page perform(HttpServletRequest request) {
-        return new Page(SERVICE_PAGE);
+        return new Page(CONTACT_PAGE);
     }
 }

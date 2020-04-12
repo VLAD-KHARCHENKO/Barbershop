@@ -1,15 +1,15 @@
-package barber.controller;
+package com.barber.controller;
 
 import com.barber.controller.command.Command;
 import com.barber.controller.command.error.NotFoundCommand;
 import com.barber.controller.command.info.*;
 
-//import com.barber.controller.command.admin.*;
-//import com.barber.controller.command.error.ForbiddenCommand;
-//import com.barber.controller.command.error.NotFoundCommand;
-//import com.barber.controller.command.error.UnderConstructionCommand;
-//import com.barber.controller.command.info.*;
-//import com.barber.controller.command.logic.*;
+//import com.com.barber.controller.command.admin.*;
+//import com.com.barber.controller.command.error.ForbiddenCommand;
+//import com.com.barber.controller.command.error.NotFoundCommand;
+//import com.com.barber.controller.command.error.UnderConstructionCommand;
+//import com.com.barber.controller.command.info.*;
+//import com.com.barber.controller.command.logic.*;
 
 import java.util.HashMap;
 import java.util.Map;

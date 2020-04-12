@@ -1,4 +1,4 @@
-package barber.config;
+package com.barber.config;
 
 import com.barber.model.User;
 import com.barber.model.enums.Role;

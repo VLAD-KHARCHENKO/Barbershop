@@ -1,4 +1,4 @@
-package barber.model.enums;
+package com.barber.model.enums;
 
 public enum Role {
     CUSTOMER, ADMIN, MANAGER, MASTER

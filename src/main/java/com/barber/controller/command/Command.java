@@ -1,4 +1,4 @@
-package barber.controller.command;
+package com.barber.controller.command;
 
 import com.barber.controller.data.Page;
 

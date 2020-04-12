@@ -1,16 +1,15 @@
-package barber.controller.command.info;
+package com.barber.controller.command.info;
 
 import com.barber.controller.command.Command;
 import com.barber.controller.data.Page;
 
 import javax.servlet.http.HttpServletRequest;
 
-import static com.barber.controller.PageUrlConstants.SINGLE_BLOG_PAGE ;
+import static com.barber.controller.PageUrlConstants.ABOUT_US_PAGE;
 
-
-public class SingleBlogCommand implements Command  {
+public class AboutUsCommand implements Command {
     @Override
     public Page perform(HttpServletRequest request) {
-        return new Page(SINGLE_BLOG_PAGE);
+        return new Page(ABOUT_US_PAGE);
     }
 }

@@ -1,4 +1,4 @@
-package barber.controller.data;
+package com.barber.controller.data;
 
 public class Page {
     private String url;

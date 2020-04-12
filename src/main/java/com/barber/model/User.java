@@ -1,4 +1,4 @@
-package barber.model;
+package com.barber.model;
 
 import com.barber.model.enums.Role;
 

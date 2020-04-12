@@ -1,4 +1,4 @@
-package barber.controller.filter;
+package com.barber.controller.filter;
 
 import javax.servlet.*;
 import java.io.IOException;

@@ -1,4 +1,4 @@
-package barber.controller;
+package com.barber.controller;
 
 public class PageUrlConstants {
 

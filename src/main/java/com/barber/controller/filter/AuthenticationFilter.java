@@ -1,4 +1,4 @@
-package barber.controller.filter;
+package com.barber.controller.filter;
 
 import com.barber.config.SecurityConfig;
 import com.barber.model.User;
