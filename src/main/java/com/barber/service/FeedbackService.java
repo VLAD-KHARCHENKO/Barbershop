@@ -8,11 +8,9 @@ import com.barber.model.enums.DaoType;
 import com.barber.repository.DaoFactory;
 import com.barber.repository.EntityDao;
 
-import com.barber.view.FeedbackDTO;
-import com.barber.view.UserDTO;
 import org.apache.log4j.Logger;
 
-import java.time.LocalDateTime;
+
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -28,11 +26,7 @@ public class FeedbackService {
 
     }
 
-    /**
-     * Gets list FeedbackDTO from DB
-     *
-     * @return
-     */
+
     public List<FeedbackDTO> getAll() {
         List<Feedback> all = feedbackDao.getAll(true);
         return all.stream().map(feedback -> {
@@ -50,16 +44,4 @@ public class FeedbackService {
         }).collect(Collectors.toList());
     }
 
-    /**
-     * Converts data from Post request to Feedback and stores it into DB
-     *
-     * @param date
-     * @param message
-     * @param userId
-     */
-    public void setFeedback(LocalDateTime date, String message, int userId) {
-        Feedback feedback = new Feedback(date, message, userId);
-        feedbackDao.create(feedback);
-        LOG.info("feedback create : " + feedback.toString());
-    }
 }
