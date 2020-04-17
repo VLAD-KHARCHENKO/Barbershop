@@ -3,7 +3,7 @@ package com.barber.model;
 import com.barber.model.enums.Role;
 
 public class User {
-    private long id;
+    private int id;
     private String firstName;
     private String lastName;
     private String phone;
@@ -11,7 +11,7 @@ public class User {
     private String password;
     private Role role;
 
-    public User(long id, String firstName, String lastName, String phone, String login, String password, Role role) {
+    public User(int id, String firstName, String lastName, String phone, String login, String password, Role role) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -24,11 +24,16 @@ public class User {
     public User() {
     }
 
-    public long getId() {
+    public User(String firstName, String lastName, String phone, String login, String password, Role customer) {
+
+
+    }
+
+    public int getId() {
         return id;
     }
 
-    public void setId(long id) {
+    public void setId(int id) {
         this.id = id;
     }
 

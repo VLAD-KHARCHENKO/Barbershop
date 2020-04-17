@@ -21,21 +21,32 @@
                         <div class="main-menu  d-none d-lg-block">
                             <nav>
                                 <ul id="navigation">
-                                    <li><a class="active" href="index">home</a></li>
-                                    <li><a href="about">About</a></li>
-                                    <li><a href="service">service</a></li>
-                                    <li><a href="#">blog <i class="ti-angle-down"></i></a>
+                                    <li><a class="active" href="">
+                                        <fmt:message key="home"/></a></li>
+                                    <li><a href="about"><fmt:message key="about"/></a></li>
+                                    <li><a href="service"><fmt:message key="service"/></a></li>
+                                    <li><a href="#"><fmt:message key="blog"/><i class="ti-angle-down"></i></a>
                                         <ul class="submenu">
-                                            <li><a href="blog">blog</a></li>
-                                            <li><a href="single-blog">single-blog</a></li>
+                                            <li><a href="blog"><fmt:message key="blog"/></a></li>
+                                            <li><a href="single-blog"><fmt:message key="single.blog"/></a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="#">pages <i class="ti-angle-down"></i></a>
+                                    <li><a href="#"><fmt:message key="pages"/> <i class="ti-angle-down"></i></a>
                                         <ul class="submenu">
-                                            <li><a href="elements">elements</a></li>
+                                            <li><a href="elements"><fmt:message key="elements"/></a></li>
                                         </ul>
                                     </li>
-                                    <li><a href="contact">Contact</a></li>
+                                    <li><a href="contact"><fmt:message key="contact"/></a></li>
+
+                                    <li><a class="popup-with-form" href="#login-form"><fmt:message key="login"/></a></li>
+
+
+
+                                    <li><a href="language?locale=en" class="text-uppercase">en</a>    </li>
+                                    <li>  <a href="language?locale=uk_UA" class="text-uppercase">ua</a>
+                                    </li>
+
+
                                 </ul>
                             </nav>
                         </div>
@@ -43,7 +54,7 @@
                     <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                         <div class="book_room">
                             <div class="book_btn d-none d-lg-block">
-                                <a class="popup-with-form" href="#test-form">Make an Appointment</a>
+                                <a class="popup-with-form" href="#test-form"><fmt:message key="make.an.appointment"/></a>
                             </div>
                         </div>
                     </div>

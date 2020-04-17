@@ -28,6 +28,8 @@ public class CommandFactory {
           getCommandMap.put("/single-blog", new SingleBlogCommand());
           getCommandMap.put("/elements", new ElementsCommand());
           getCommandMap.put("/contact", new ContactCommand());
+          getCommandMap.put("/language", new LanguageCommand());
+          getCommandMap.put("/login", new LoginCommand());
 
 
 //          getCommandMap.put("/user", new UserCommand());

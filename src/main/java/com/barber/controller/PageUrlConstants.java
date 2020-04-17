@@ -11,4 +11,8 @@ public class PageUrlConstants {
     public static final String NOT_FOUND_PAGE = "errors/404-error";
     public static final String ELEMENTS_PAGE = "elements";
     public static final String CONTACT_PAGE = "contact";
+    public static final String REDIRECT_HOME_PAGE = "/";
+    public static final String LOGIN_PAGE = "login";
+
+
 }
