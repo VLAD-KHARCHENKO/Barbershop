@@ -386,7 +386,7 @@
 <c:import url="templ/footer-part.jsp"/>
 <!-- link that opens popup -->
 <c:import url="templ/form-part.jsp"/>
-
+<c:import url="templ/login-form.jsp"/>
 <!-- form itself end -->
 
 <c:import url="templ/script-part.jsp"/>

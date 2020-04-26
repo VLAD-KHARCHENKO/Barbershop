@@ -11,7 +11,7 @@ public class SecurityConfig {
     private static Map<Role, List<String>> securityPages = new HashMap<>();
 
     static {
-        securityPages.put(Role.ADMIN, Arrays.asList("/admin", "/user", "/manager", "/master", "/feedback", "/order", "/order-comment", "/user-profile", "/users"));
+        securityPages.put(Role.ADMIN, Arrays.asList("/service", "/user", "/manager", "/master", "/feedback", "/order", "/order-comment", "/user-profile", "/users"));
         securityPages.put(Role.CUSTOMER, Arrays.asList("/user", "/feedback", "/order", "/order-comment"));
          securityPages.put(Role.MASTER, Arrays.asList("/master", "/order-comment"));
     }

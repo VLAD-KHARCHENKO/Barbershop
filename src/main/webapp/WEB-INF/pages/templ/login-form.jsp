@@ -5,14 +5,14 @@
 <fmt:setBundle basename="${bundle}"/>
 
 <!-- form itself end-->
-<form id="login-form" class="white-popup-block mfp-hide">
+<form id="login-form" class="white-popup-block mfp-hide" action="login" method="post">
     <div class="popup_box ">
         <div class="popup_inner">
             <h3>Login</h3>
-            <form action="#">
+
                 <div class="row">
-                        <input type="email" placeholder="Your email">
-                    <input type="password" placeholder="Password">
+                        <input type="email" type="text" name="login" placeholder="Your email">
+                    <input type="password"  name="password"  placeholder="Password">
 
                 </div>
 
@@ -21,11 +21,7 @@
                     </div>
 
 
-
-
-
-            </form>
-            <div class="col-xl-12"><a class="popup-with-form" href="#registration-form">Registration</a>  </div>
+            <div class="col-xl-12"><a href="registration"><fmt:message key="registration"/></a>  </div>
         </div>
     </div>
 </form>

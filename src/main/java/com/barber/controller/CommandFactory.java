@@ -11,6 +11,7 @@ import com.barber.controller.command.info.*;
 //import com.com.barber.controller.command.info.*;
 //import com.com.barber.controller.command.logic.*;
 
+import javax.servlet.Registration;
 import java.util.HashMap;
 import java.util.Map;
 
@@ -30,6 +31,13 @@ public class CommandFactory {
           getCommandMap.put("/contact", new ContactCommand());
           getCommandMap.put("/language", new LanguageCommand());
           getCommandMap.put("/login", new LoginCommand());
+          getCommandMap.put("/registration", new RegistrationCommand());
+          getCommandMap.put("/logout", new LogoutCommand());
+
+
+
+          postCommandMap.put("/login", new LoginCommand());
+          postCommandMap.put("/registration", new RegistrationCommand());
 
 
 //          getCommandMap.put("/user", new UserCommand());

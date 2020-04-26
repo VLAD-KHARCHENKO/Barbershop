@@ -1,5 +1,6 @@
 package com.barber.service;
 
+import com.barber.model.enums.Role;
 import com.barber.view.UserDTO;
 import com.barber.model.User;
 import com.barber.model.enums.DaoType;
@@ -22,6 +23,46 @@ public class UserService {
     public List<UserDTO> getAll() {
         List<User> all = userDao.getAll();
         return mapToUserDTO(all);
+    }
+
+    public boolean validateUser(String login, String password) {
+        User user = userDao.getByField(login, false);
+        LOG.info("Get user by login:" + user);
+        if (user != null) {
+            if (user.getPassword().equals(password)) {
+                LOG.info("user validate");
+                return true;
+            }
+        }
+        return false;
+    }
+    public User getUserByLogin(String login) {
+        return userDao.getByField(login, false);
+    }
+
+    public boolean validateLogin(String login) {
+        List<User> all = userDao.getAll();
+        for (User user : all) {
+            if (user.getLogin().equals(login)) {
+                System.out.println("Not validate login: " + user.getLogin());
+                return false;
+            }
+        }
+        return true;
+    }
+
+
+    public boolean validatePassword(String password, String confirmPassword) {
+        if (password.equals(confirmPassword)) return true;
+        return false;
+    }
+
+    public User registrationUser(String firstName, String lastName, String phone, String login, String password) {
+
+        User newUser = new User(firstName, lastName, phone, login, password, Role.CUSTOMER);
+        LOG.info(newUser);
+        userDao.create(newUser);
+        return newUser;
     }
 
 

@@ -473,7 +473,6 @@
 <!-- link that opens popup -->
 <c:import url="templ/form-part.jsp"/>
 <c:import url="templ/login-form.jsp"/>
-<c:import url="templ/registration-form.jsp"/>
 
 <!-- form itself end -->
 

@@ -24,10 +24,16 @@ public class User {
     public User() {
     }
 
-    public User(String firstName, String lastName, String phone, String login, String password, Role customer) {
-
-
+    public User(String firstName, String lastName, String phone, String login, String password, Role role) {
+        this.firstName = firstName;
+        this.lastName = lastName;
+        this.phone = phone;
+        this.login = login;
+        this.password = password;
+        this.role = role;
     }
+
+
 
     public int getId() {
         return id;

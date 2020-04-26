@@ -38,13 +38,28 @@
                                     </li>
                                     <li><a href="contact"><fmt:message key="contact"/></a></li>
 
-                                    <li><a class="popup-with-form" href="#login-form"><fmt:message key="login"/></a></li>
+
+                                    <li>   <c:choose>
+                                        <c:when test="${not empty user}">
+                                            <a href="logout">
+                                                <fmt:message key="logout"/>
+                                            </a>
+                                        </c:when>
+                                        <c:otherwise>
+                                   <a class="popup-with-form" href="#login-form"><fmt:message key="login"/></a>
+                                        </c:otherwise>
+                                    </c:choose></li>
 
 
 
-                                    <li><a href="language?locale=en" class="text-uppercase">en</a>    </li>
-                                    <li>  <a href="language?locale=uk_UA" class="text-uppercase">ua</a>
-                                    </li>
+
+
+                                    <li><c:choose>
+                                        <c:when test="${locale=='uk_UA'}"><a href="language?locale=en" class="text-uppercase">en</a>  </c:when>
+                                        <c:otherwise>
+                                    <a href="language?locale=uk_UA" class="text-uppercase">ua</a>
+                                        </c:otherwise>
+                                    </c:choose></li>
 
 
                                 </ul>
