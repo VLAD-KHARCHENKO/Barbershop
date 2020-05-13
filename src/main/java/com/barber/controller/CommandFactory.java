@@ -31,15 +31,17 @@ public class CommandFactory {
           getCommandMap.put("/contact", new ContactCommand());
           getCommandMap.put("/language", new LanguageCommand());
           getCommandMap.put("/login", new LoginCommand());
-          getCommandMap.put("/registration", new RegistrationCommand());
           getCommandMap.put("/logout", new LogoutCommand());
+          getCommandMap.put("/registration", new RegistrationCommand());
+          getCommandMap.put("/feedback", new FeedbackCommand());
+          getCommandMap.put("/makeAnAppointment", new MakeAppointmentCommand());
 
 
 
           postCommandMap.put("/login", new LoginCommand());
           postCommandMap.put("/registration", new RegistrationCommand());
-
-
+          postCommandMap.put("/feedback", new FeedbackCommand());
+          postCommandMap.put("/makeAnAppointment", new MakeAppointmentCommand());
 //          getCommandMap.put("/user", new UserCommand());
 //          getCommandMap.put("/404-error", defaultCommand);
 

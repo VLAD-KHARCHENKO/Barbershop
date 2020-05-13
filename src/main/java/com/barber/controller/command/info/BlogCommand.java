@@ -11,6 +11,7 @@ import static com.barber.controller.PageUrlConstants.BLOG_PAGE;
 public class BlogCommand implements Command  {
     @Override
     public Page perform(HttpServletRequest request) {
+        request.setAttribute("activeTab", "blog");
         return new Page(BLOG_PAGE);
     }
 }

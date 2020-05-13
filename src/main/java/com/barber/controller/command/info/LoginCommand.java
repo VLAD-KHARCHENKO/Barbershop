@@ -25,7 +25,7 @@ public class LoginCommand extends UniCommand {
 
     @Override
     protected Page performGet(HttpServletRequest request) {
-        return new Page(REDIRECT_HOME_PAGE);
+        return new Page(LOGIN_PAGE);
     }
 
     @Override
@@ -33,7 +33,6 @@ public class LoginCommand extends UniCommand {
         LOG.info("login post");
       String login = request.getParameter("login");
         String password = request.getParameter("password");
-      System.out.println("login: " + login + ", password: " + password);
 
      HttpSession session = request.getSession();
 

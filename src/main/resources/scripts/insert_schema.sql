@@ -1,12 +1,12 @@
 ﻿                    use barber_database;
 
 insert into `user` (`first_name`, `last_name`,`phone`,`login`, `password`, `role`) values
-('Сергій', 'Адміненко','11234567','admin@g.com', 'admin', 'ADMIN'),
+('Андрій', 'Мирний','11234567','admin@g.com', 'admin', 'ADMIN'),
 ('Петро', 'Мастеровий', '11234569','master@g.com', 'master', 'MASTER'),
-('Папа', 'Карло', '11234560','user1@g.com', 'password', 'CUSTOMER'),
-('Буратіно','Карло', '11234571','user2@g.com', 'password', 'CUSTOMER'),
-('Федір', 'Дядя', '11234572','user3@g.com', 'password', 'CUSTOMER'),
-('Дженіфер', 'Лопес', '11234573','user4@g.com', 'password', 'CUSTOMER');
+('Володимир', 'Нестеренко', '11234560','user1@g.com', 'password', 'CUSTOMER'),
+('Володимир','Чернявий', '11234571','user2@g.com', 'password', 'CUSTOMER'),
+('Сергій', 'Чебрик', '11234572','user3@g.com', 'password', 'CUSTOMER'),
+('Джастін', 'Дей', '11234573','user4@g.com', 'password', 'CUSTOMER');
 
 
 

@@ -21,22 +21,34 @@
                         <div class="main-menu  d-none d-lg-block">
                             <nav>
                                 <ul id="navigation">
-                                    <li><a class="active" href="">
-                                        <fmt:message key="home"/></a></li>
-                                    <li><a href="about"><fmt:message key="about"/></a></li>
-                                    <li><a href="service"><fmt:message key="service"/></a></li>
-                                    <li><a href="#"><fmt:message key="blog"/><i class="ti-angle-down"></i></a>
-                                        <ul class="submenu">
-                                            <li><a href="blog"><fmt:message key="blog"/></a></li>
-                                            <li><a href="single-blog"><fmt:message key="single.blog"/></a></li>
-                                        </ul>
+
+                                    <c:set var="name" value='${activeTab}'/>
+                                    <li <c:if test="${name == 'home'}">class="active"</c:if>><a href=""><fmt:message
+                                        key="home"/></a>
+
+                                    <li <c:if test="${name == 'about'}">class="active"</c:if>><a href="about"><fmt:message
+                                        key="about"/></a>
+
+                                    <li <c:if test="${name == 'service'}">class="active"</c:if>><a href="service"><fmt:message
+                                        key="service"/></a>
+
+                                    <li <c:if test="${name == 'blog'}">class="active"</c:if>><a href="#"><fmt:message
+                                        key="blog"/><i class="ti-angle-down"></i></a>
+                                    <ul class="submenu">
+                                        <li><a href="blog"><fmt:message key="blog"/></a></li>
+                                        <li><a href="single-blog"><fmt:message key="single.blog"/></a></li>
+                                    </ul>
                                     </li>
-                                    <li><a href="#"><fmt:message key="pages"/> <i class="ti-angle-down"></i></a>
-                                        <ul class="submenu">
-                                            <li><a href="elements"><fmt:message key="elements"/></a></li>
-                                        </ul>
+                                    <li <c:if test="${name == 'pages'}">class="active"</c:if>><a href="#"><fmt:message
+                                        key="pages"/></a>
+                                    <ul class="submenu">
+                                        <li><a href="elements"><fmt:message key="elements"/><i class="ti-angle-down"></i></a></li>
+                                    </ul>
                                     </li>
-                                    <li><a href="contact"><fmt:message key="contact"/></a></li>
+                                    <li <c:if test="${name == 'contact'}">class="active"</c:if>><a href="contact"><fmt:message
+                                        key="contact"/></a>
+                                    <li <c:if test="${name == 'feedback'}">class="active"</c:if>><a href="feedback"><fmt:message
+                                        key="feedback"/></a>
 
 
                                     <li>   <c:choose>
@@ -46,7 +58,7 @@
                                             </a>
                                         </c:when>
                                         <c:otherwise>
-                                   <a class="popup-with-form" href="#login-form"><fmt:message key="login"/></a>
+                                   <a href="login"><fmt:message key="login"/></a>
                                         </c:otherwise>
                                     </c:choose></li>
 
@@ -63,13 +75,14 @@
 
 
                                 </ul>
+
                             </nav>
                         </div>
                     </div>
                     <div class="col-xl-3 col-lg-3 d-none d-lg-block">
                         <div class="book_room">
                             <div class="book_btn d-none d-lg-block">
-                                <a class="popup-with-form" href="#test-form"><fmt:message key="make.an.appointment"/></a>
+                                <a href="makeAnAppointment"><fmt:message key="make.an.appointment"/></a>
                             </div>
                         </div>
                     </div>
@@ -80,5 +93,6 @@
             </div>
         </div>
     </div>
+
 </header>
 <!-- header-end -->

@@ -1,17 +1,17 @@
-package com.repairagency.controller.command.logic;
+package com.barber.controller.command.info;
 
-import com.repairagency.controller.command.UniCommand;
-import com.repairagency.controller.data.Page;
-import com.repairagency.model.User;
-import com.repairagency.service.FeedbackService;
-import com.repairagency.service.ServiceFactory;
+import com.barber.controller.command.UniCommand;
+import com.barber.controller.data.Page;
+import com.barber.model.User;
+import com.barber.service.FeedbackService;
+import com.barber.service.ServiceFactory;
 import org.apache.log4j.Logger;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpSession;
 import java.time.LocalDateTime;
 
-import static com.repairagency.controller.PageUrlConstants.FEEDBACK_PAGE;
+import static com.barber.controller.PageUrlConstants.FEEDBACK_PAGE;
 
 public class FeedbackCommand extends UniCommand {
     private static final Logger LOG = Logger.getLogger(FeedbackCommand.class);
@@ -25,6 +25,7 @@ public class FeedbackCommand extends UniCommand {
     @Override
     protected Page performGet(HttpServletRequest request) {
         request.setAttribute("feedback", feedbackService.getAll());
+        request.setAttribute("activeTab", "feedback");
         return new Page(FEEDBACK_PAGE);
     }
 
@@ -35,7 +36,7 @@ public class FeedbackCommand extends UniCommand {
         String message = request.getParameter("message");
         LocalDateTime date = LocalDateTime.now().withNano(0);
         User user = (User) session.getAttribute("user");
-
+        LOG.info("feedback : " + message);
         if (message.length() > LENGTH_MESSAGE) {
             feedbackService.setFeedback(date, message, user.getId());
             request.setAttribute("notification", "Thank you for your feedback!");

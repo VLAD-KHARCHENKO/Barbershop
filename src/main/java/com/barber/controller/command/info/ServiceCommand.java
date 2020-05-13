@@ -11,6 +11,7 @@ import static com.barber.controller.PageUrlConstants.SERVICE_PAGE;
 public class ServiceCommand implements Command {
     @Override
     public Page perform(HttpServletRequest request) {
+        request.setAttribute("activeTab", "service");
         return new Page(SERVICE_PAGE);
     }
 }

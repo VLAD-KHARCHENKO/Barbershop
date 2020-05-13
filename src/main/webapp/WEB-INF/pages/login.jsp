@@ -15,62 +15,54 @@
 </head>
 
 <body>
-    <!--[if lte IE 9]>
-            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-        <![endif]-->
+<!--[if lte IE 9]>
+<p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+<![endif]-->
 
-    <!-- header-start -->
-    <c:import url="templ/header-part.jsp"/>
+<!-- header-start -->
+<c:import url="templ/header-part.jsp"/>
 
-    <!-- header-end -->
+<!-- header-end -->
 
 
-    <div class="bradcam_area breadcam_bg overlay2">
-            <h3>Registration</h3>
-        </div>
-        <!-- bradcam_area_end -->
+<div class="bradcam_area breadcam_bg overlay2">
+    <h3>Registration</h3>
+</div>
+<!-- bradcam_area_end -->
 
-    <form id="registration-form" action="registration" method="post">
-        <div class="popup_box ">
-            <div class="popup_inner">
-                <h3>Registration</h3>
+<form id="login-form" action="login" method="post">
+    <div class="popup_box ">
+        <div class="popup_inner">
+            <h3>Login</h3>
+
+            <div class="row">
+
+                <c:if test="${not empty notification}">
+                    <c:out value ="${notification}" />
+                </c:if>
+
 
                 <div class="row">
+                    <input type="email" type="text" name="login" placeholder="Your email">
+                    <input type="password"  name="password"  placeholder="Password">
 
-                    <c:if test="${not empty notification}">
-                        <c:out value ="${notification}" />
-                    </c:if>
+                </div>
 
-                    <div class="col-xl-6 col-md-6">
-                        <input type="text" name="firstName" placeholder="Your name">
-                    </div>
-                    <div class="col-xl-6 col-md-6">
-                        <input type="text"  name="lastName" placeholder="Your surname">
-                    </div>
-                    <div class="col-xl-6 col-md-6">
-                        <input type="text" name="phone" placeholder="Phone">
-                    </div>
-                    <div class="col-xl-12">
-                        <input type="email" name="login" placeholder="Your email">
-                    </div>
-                    <input type="password" name="password" placeholder="Password">
-                    <input type="password" name="confirmPassword" placeholder="Confirm Password">
-                    <div class="col-xl-12">
-                        <button type="submit" class="boxed-btn3">Registration</button>
-                    </div>
+                    <button type="submit" class="boxed-btn3">Login</button>
+                <div class="col-xl-12"><a href="registration"><fmt:message key="registration"/></a>  </div>
                 </div>
             </div>
         </div>
-    </form>
+    </div>
+</form>
 
-    <c:import url="templ/footer-part.jsp"/>
-    <!-- link that opens popup -->
-    <c:import url="templ/form-part.jsp"/>
-    <c:import url="templ/login-form.jsp"/>
-    <c:import url="templ/feedback.jsp"/>
-    <!-- form itself end -->
+<c:import url="templ/footer-part.jsp"/>
+<!-- link that opens popup -->
+<c:import url="templ/form-part.jsp"/>
 
-    <c:import url="templ/script-part.jsp"/>
+<!-- form itself end -->
+
+<c:import url="templ/script-part.jsp"/>
 
 </body>
 

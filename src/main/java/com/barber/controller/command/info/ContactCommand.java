@@ -10,6 +10,7 @@ import static com.barber.controller.PageUrlConstants.CONTACT_PAGE;
 public class ContactCommand implements Command {
     @Override
     public Page perform(HttpServletRequest request) {
+        request.setAttribute("activeTab", "contact");
         return new Page(CONTACT_PAGE);
     }
 }

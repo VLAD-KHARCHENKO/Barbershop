@@ -20,7 +20,9 @@ public class HomeCommand implements Command {
     @Override
     public Page perform(HttpServletRequest request) {
         request.setAttribute("feedback", feedbackService.getAll());
+        request.setAttribute("activeTab", "home");
         return new Page(HOME_PAGE);
 
     }
+
 }

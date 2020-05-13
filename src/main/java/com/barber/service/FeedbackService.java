@@ -11,6 +11,7 @@ import com.barber.repository.EntityDao;
 import org.apache.log4j.Logger;
 
 
+import java.time.LocalDateTime;
 import java.util.List;
 import java.util.stream.Collectors;
 
@@ -42,6 +43,13 @@ public class FeedbackService {
             feedbackDTO.setCustomer(userDTO);
             return feedbackDTO;
         }).collect(Collectors.toList());
+    }
+    public void setFeedback(LocalDateTime date, String message, int userId) {
+        LOG.info("feedback: " + date+ message + userId);
+        Feedback feedback = new Feedback(date, message, userId);
+
+        feedbackDao.create(feedback);
+        LOG.info("feedback create : " + feedback.toString());
     }
 
 }

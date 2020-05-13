@@ -10,6 +10,8 @@ import static com.barber.controller.PageUrlConstants.ELEMENTS_PAGE;
 public class ElementsCommand implements Command {
     @Override
     public Page perform(HttpServletRequest request) {
+
+        request.setAttribute("activeTab", "elements");
         return new Page(ELEMENTS_PAGE);
     }
 }

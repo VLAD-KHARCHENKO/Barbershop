@@ -10,6 +10,7 @@ import static com.barber.controller.PageUrlConstants.ABOUT_US_PAGE;
 public class AboutUsCommand implements Command {
     @Override
     public Page perform(HttpServletRequest request) {
+        request.setAttribute("activeTab", "about");
         return new Page(ABOUT_US_PAGE);
     }
 }

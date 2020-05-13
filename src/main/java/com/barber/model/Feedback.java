@@ -17,7 +17,9 @@ public class Feedback {
     }
 
     public Feedback(LocalDateTime date, String message, int userId) {
-
+        this.date = date;
+        this.feedback = message;
+        this.userId = userId;
     }
 
 

@@ -12,8 +12,9 @@ public class PageUrlConstants {
     public static final String ELEMENTS_PAGE = "elements";
     public static final String CONTACT_PAGE = "contact";
     public static final String REDIRECT_HOME_PAGE = "/";
-    public static final String LOGIN_PAGE = "/#login-form";
+    public static final String LOGIN_PAGE = "/login";
     public static final String REGISTRATION_PAGE = "/registration";
-
-
+    public static final String FEEDBACK_PAGE = "/feedback";
+    public static final String MAKE_AN_APPOINTMENT = "/makeAnAppointment";
+    public static final String MAKE_AN_APPOINTMENT_ADMIN = "/makeAnAppointment-admin";
 }
