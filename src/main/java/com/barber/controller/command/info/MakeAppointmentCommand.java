@@ -5,6 +5,7 @@ import com.barber.controller.data.Page;
 import com.barber.exeption.InvalidScheduleDateException;
 import com.barber.model.User;
 import com.barber.model.enums.Role;
+import com.barber.service.ScheduleMastersService;
 import com.barber.service.ServiceFactory;
 import com.barber.service.WeekScheduleDatesService;
 import com.barber.view.MasterDTO;
@@ -26,12 +27,12 @@ public class MakeAppointmentCommand extends UniCommand {
     private static final Logger LOG = Logger.getLogger(MakeAppointmentCommand.class);
     private static final int LENGTH_MESSAGE = 10;
     private WeekScheduleDatesService weekScheduleDatesService;
-   //private ScheduleMastersService mastersService;
+    private ScheduleMastersService mastersService;
 
 
     public MakeAppointmentCommand() {
         this.weekScheduleDatesService = ServiceFactory.getDatesService();
-       // this.mastersService = ServiceFactory.getMasterService();
+        this.mastersService = ServiceFactory.getMasterService();
     }
 
     @Override
@@ -48,13 +49,13 @@ public class MakeAppointmentCommand extends UniCommand {
 
         LocalDate date = LocalDate.parse(dateStr);
         try {
-        // List<MasterDTO> mastersDTOList = mastersService.getScheduleMasters(date);
+            List<MasterDTO> mastersDTOList = mastersService.getScheduleMasters(date);
             List<MenuDateViewDto> menuDates = weekScheduleDatesService.getWeekScheduleDates(date);
 
-          // LOG.info("Current day schedule number: " + mastersDTOList.size() + "\n" +mastersDTOList);
-           request.setAttribute("menuDates", menuDates);
-           // request.setAttribute("schedules",mastersDTOList );
-            request.setAttribute("activeTab", "schedule");
+            LOG.info("Master dto: " + mastersDTOList.size() + "\n" + mastersDTOList);
+            request.setAttribute("menuDates", menuDates);
+            request.setAttribute("schedules", mastersDTOList);
+
 
             HttpSession session = request.getSession();
             User user = (User) session.getAttribute("user");

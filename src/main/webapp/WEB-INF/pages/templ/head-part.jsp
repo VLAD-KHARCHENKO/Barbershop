@@ -17,7 +17,7 @@
 <link rel="stylesheet" href="static/css/font-awesome.min.css">
 <link rel="stylesheet" href="static/css/themify-icons.css">
 <link rel="stylesheet" href="static/css/nice-select.css">
-<link rel="stylesheet" href="static/css/flaticon.static/css">
+<link rel="stylesheet" href="static/css/flaticon.css">
 <link rel="stylesheet" href="static/css/gijgo.css">
 <link rel="stylesheet" href="static/css/animate.css">
 <link rel="stylesheet" href="static/css/slicknav.css">

@@ -23,31 +23,31 @@
                                 <ul id="navigation">
 
                                     <c:set var="name" value='${activeTab}'/>
-                                    <li <c:if test="${name == 'home'}">class="active"</c:if>><a href=""><fmt:message
+                                    <li><a <c:if test="${name == 'home'}">class="active"</c:if> href=""><fmt:message
                                         key="home"/></a>
 
-                                    <li <c:if test="${name == 'about'}">class="active"</c:if>><a href="about"><fmt:message
+                                    <li><a <c:if test="${name == 'about'}">class="active"</c:if> href="about"><fmt:message
                                         key="about"/></a>
 
-                                    <li <c:if test="${name == 'service'}">class="active"</c:if>><a href="service"><fmt:message
+                                    <li><a <c:if test="${name == 'service'}">class="active"</c:if> href="service"><fmt:message
                                         key="service"/></a>
 
-                                    <li <c:if test="${name == 'blog'}">class="active"</c:if>><a href="#"><fmt:message
+                                    <li><a  <c:if test="${name == 'blog'}">class="active"</c:if> href="#"><fmt:message
                                         key="blog"/><i class="ti-angle-down"></i></a>
                                     <ul class="submenu">
                                         <li><a href="blog"><fmt:message key="blog"/></a></li>
                                         <li><a href="single-blog"><fmt:message key="single.blog"/></a></li>
                                     </ul>
                                     </li>
-                                    <li <c:if test="${name == 'pages'}">class="active"</c:if>><a href="#"><fmt:message
+                                    <li><a  <c:if test="${name == 'pages'}">class="active"</c:if> href="#"><fmt:message
                                         key="pages"/></a>
                                     <ul class="submenu">
                                         <li><a href="elements"><fmt:message key="elements"/><i class="ti-angle-down"></i></a></li>
                                     </ul>
                                     </li>
-                                    <li <c:if test="${name == 'contact'}">class="active"</c:if>><a href="contact"><fmt:message
+                                    <li><a <c:if test="${name == 'contact'}">class="active"</c:if> href="contact"><fmt:message
                                         key="contact"/></a>
-                                    <li <c:if test="${name == 'feedback'}">class="active"</c:if>><a href="feedback"><fmt:message
+                                    <li><a <c:if test="${name == 'feedback'}">class="active"</c:if>><a href="feedback"><fmt:message
                                         key="feedback"/></a>
 
 

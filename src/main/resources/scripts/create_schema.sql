@@ -20,3 +20,36 @@ userId int,
 primary key (id),
 foreign key (userId) references user(id)
 );
+
+create table service (
+id Int auto_increment,
+service_name varchar(255),
+price decimal,
+primary key (id));
+
+create table master (
+id Int auto_increment,
+userId int,
+photo varchar(255),
+primary key (id),
+foreign key (userId) references user (id)
+);
+ create table skills(
+ id Int auto_increment,
+ masterId int,
+ serviceId int,
+ primary key (id),
+ foreign key (masterId) references master (id),
+foreign key (serviceId) references service (id)
+  );
+
+create table schedule(
+ id Int auto_increment,
+  userId int,
+  datetime TIMESTAMP,
+ status ENUM( "BOOKED", "FREE"),
+ masterId int,
+ primary key (id),
+ foreign key (masterId) references master (id),
+foreign key (userId) references user (id)
+  );

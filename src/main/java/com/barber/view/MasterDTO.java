@@ -2,22 +2,20 @@ package com.barber.view;
 
 import com.barber.model.Service;
 import com.barber.model.User;
-import com.barber.model.enums.Role;
 
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Objects;
 
 public class MasterDTO {
     private int id;
-private User user;
+private User master;
     private String photoImgPath;
     private List<Service> servicesList;
     private List<AppointmentTimeViewDto> appointmentSessionTime;
 
-    public MasterDTO(int id, User user, String photoImgPath, List<Service> servicesList, List<AppointmentTimeViewDto> appointmentSessionTime) {
+    public MasterDTO(int id, User master, String photoImgPath, List<Service> servicesList, List<AppointmentTimeViewDto> appointmentSessionTime) {
         this.id = id;
-        this.user = user;
+        this.master = master;
         this.photoImgPath = photoImgPath;
         this.servicesList = servicesList;
         this.appointmentSessionTime = appointmentSessionTime;
@@ -31,12 +29,12 @@ private User user;
         this.id = id;
     }
 
-    public User getUser() {
-        return user;
+    public User getMaster() {
+        return master;
     }
 
-    public void setUser(User user) {
-        this.user = user;
+    public void setMaster(User master) {
+        this.master = master;
     }
 
     public String getPhotoImgPath() {
@@ -69,7 +67,7 @@ private User user;
         if (o == null || getClass() != o.getClass()) return false;
         MasterDTO masterDTO = (MasterDTO) o;
         return id == masterDTO.id &&
-                user.equals(masterDTO.user) &&
+                master.equals(masterDTO.master) &&
                 photoImgPath.equals(masterDTO.photoImgPath) &&
                 servicesList.equals(masterDTO.servicesList) &&
                 appointmentSessionTime.equals(masterDTO.appointmentSessionTime);
@@ -77,14 +75,14 @@ private User user;
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, user, photoImgPath, servicesList, appointmentSessionTime);
+        return Objects.hash(id, master, photoImgPath, servicesList, appointmentSessionTime);
     }
 
     @Override
     public String toString() {
         return "MasterDTO{" +
                 "id=" + id +
-                ", user=" + user +
+                ", user=" + master +
                 ", photoImgPath='" + photoImgPath + '\'' +
                 ", servicesList=" + servicesList +
                 ", appointmentSessionTime=" + appointmentSessionTime +

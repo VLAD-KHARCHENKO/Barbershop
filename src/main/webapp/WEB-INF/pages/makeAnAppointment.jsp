@@ -38,7 +38,7 @@
             <nav>
     <ul >
         <c:forEach items="${menuDates}" var="menuDate">
-            <li <c:if test="${menuDate.isActive()}">class="active"</c:if>>
+            <li <c:if test="${menuDate.isActive()}"> class="active" </c:if>>
             <a href="makeAnAppointment${menuDate.getIsoDate()}">
                 <fmt:message key="week.day.${menuDate.getDayOfWeek()}"/>
                 ${menuDate.getFormattedDate()}</a></li>
