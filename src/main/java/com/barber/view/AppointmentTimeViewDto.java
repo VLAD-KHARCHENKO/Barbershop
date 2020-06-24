@@ -14,6 +14,9 @@ public class AppointmentTimeViewDto {
     private LocalTime startAt;
     private boolean isBooked;
 
+    public AppointmentTimeViewDto() {
+    }
+
     public AppointmentTimeViewDto(int id, User user, LocalTime startAt, boolean isBooked) {
         this.id = id;
         this.user = user;

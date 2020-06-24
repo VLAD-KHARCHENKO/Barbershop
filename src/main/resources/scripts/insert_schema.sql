@@ -56,8 +56,8 @@ values(2,'static/img/team/1.png'),
 (4,10);
 
 insert into `schedule`(`userId`,`datetime`,`status`,`masterId`)
-values(6,'2020-06-10 15:50:53','BOOKED',1),
-(7,'2020-06-10 15:50:53','BOOKED',2),
+values(6,'2020-06-30 15:50:53','BOOKED',1),
+(7,'2020-06-24 15:50:53','BOOKED',2),
 (8,'2020-06-10 15:50:53','BOOKED',3);
 
 

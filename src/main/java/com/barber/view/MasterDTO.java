@@ -13,6 +13,9 @@ private User master;
     private List<Service> servicesList;
     private List<AppointmentTimeViewDto> appointmentSessionTime;
 
+    public MasterDTO() {
+    }
+
     public MasterDTO(int id, User master, String photoImgPath, List<Service> servicesList, List<AppointmentTimeViewDto> appointmentSessionTime) {
         this.id = id;
         this.master = master;

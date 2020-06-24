@@ -1,26 +1,26 @@
 package com.barber.model;
 
 import com.barber.model.enums.BookingStatus;
-import com.barber.repository.EntityDao;
 
 import java.time.LocalDateTime;
-import java.time.LocalTime;
 import java.util.Objects;
 
-public class Sсhedule {
+public class MasterSсhedules {
     private int id;
     private int userId;
     private LocalDateTime startAt;
   private BookingStatus bookingStatus;
     private int masterId;
 
-    public Sсhedule(int id, int userId, LocalDateTime startAt, BookingStatus bookingStatus, int masterId) {
+    public MasterSсhedules(int id, int userId, LocalDateTime startAt, BookingStatus bookingStatus, int masterId) {
         this.id = id;
         this.userId = userId;
         this.startAt = startAt;
         this.bookingStatus = bookingStatus;
         this.masterId = masterId;
     }
+
+
 
     public int getId() {
         return id;
@@ -66,7 +66,7 @@ public class Sсhedule {
     public boolean equals(Object o) {
         if (this == o) return true;
         if (o == null || getClass() != o.getClass()) return false;
-        Sсhedule sсhedule = (Sсhedule) o;
+        MasterSсhedules sсhedule = (MasterSсhedules) o;
         return id == sсhedule.id &&
                 userId == sсhedule.userId &&
                 masterId == sсhedule.masterId &&

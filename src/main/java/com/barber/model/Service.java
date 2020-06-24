@@ -10,7 +10,7 @@ public class Service {
     private Double price;
 
 
-    public Service(int id, String serviceName, Double price) {
+    public Service(int id, String serviceName, double price) {
         this.id = id;
         this.serviceName = serviceName;
         this.price = price;

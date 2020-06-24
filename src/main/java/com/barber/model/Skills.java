@@ -4,12 +4,12 @@ import java.util.Objects;
 
 public class Skills {
     private int id;
-    private int userId;
+    private int masterId;
     private int serviceId;
 
-    public Skills(int id, int userId, int serviceId) {
+    public Skills(int id, int masterId, int serviceId) {
         this.id = id;
-        this.userId = userId;
+        this.masterId = masterId;
         this.serviceId = serviceId;
     }
 
@@ -21,12 +21,12 @@ public class Skills {
         this.id = id;
     }
 
-    public int getUserId() {
-        return userId;
+    public int getMasterId() {
+        return masterId;
     }
 
-    public void setUserId(int userId) {
-        this.userId = userId;
+    public void setMasterId(int masterId) {
+        this.masterId = masterId;
     }
 
     public int getServiceId() {
@@ -43,20 +43,20 @@ public class Skills {
         if (o == null || getClass() != o.getClass()) return false;
         Skills skills = (Skills) o;
         return id == skills.id &&
-                userId == skills.userId &&
+                masterId == skills.masterId &&
                 serviceId == skills.serviceId;
     }
 
     @Override
     public int hashCode() {
-        return Objects.hash(id, userId, serviceId);
+        return Objects.hash(id, masterId, serviceId);
     }
 
     @Override
     public String toString() {
         return "Skills{" +
                 "id=" + id +
-                ", userId=" + userId +
+                ", masterId=" + masterId +
                 ", serviceId=" + serviceId +
                 '}';
     }

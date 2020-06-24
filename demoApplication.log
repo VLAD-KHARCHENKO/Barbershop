@@ -19670,3 +19670,731 @@ Caused by: java.net.SocketException: Software caused connection abort: socket wr
 [http-bio-8088-exec-3] INFO  com.barber.controller.filter.StaticResourceFilter  - Non static resource: /makeAnAppointment. New Path: /app/makeAnAppointment
 [http-bio-8088-exec-3] INFO  com.barber.controller.DispatcherServlet  - Path: /makeAnAppointment
 [http-bio-8088-exec-3] INFO  com.barber.controller.command.info.MakeAppointmentCommand  - Get for /makeAnAppointment
+[localhost-startStop-1] INFO  com.barber.controller.filter.LocalizationFilter  - Set init defaultLocale=en
+[http-bio-8088-exec-3] INFO  com.barber.controller.filter.LocalizationFilter  - Set locale to session
+[http-bio-8088-exec-3] INFO  com.barber.controller.filter.LocalizationFilter  - Set bundle to session
+[http-bio-8088-exec-3] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /
+[http-bio-8088-exec-3] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /
+[http-bio-8088-exec-3] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/
+[http-bio-8088-exec-3] INFO  com.barber.controller.filter.StaticResourceFilter  - Non static resource: /. New Path: /app/
+[http-bio-8088-exec-3] INFO  com.barber.controller.DispatcherServlet  - Path: /
+[http-bio-8088-exec-3] DEBUG com.barber.config.DataSourceConnectionPool  - Connection received jdbc:mysql://localhost:3306/barber_database?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL Connector/J 506610273
+[http-bio-8088-exec-3] DEBUG com.barber.config.DataSourceConnectionPool  - Connection received jdbc:mysql://localhost:3306/barber_database?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL Connector/J 506610273
+[http-bio-8088-exec-3] DEBUG com.barber.config.DataSourceConnectionPool  - Connection received jdbc:mysql://localhost:3306/barber_database?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL Connector/J 506610273
+[http-bio-8088-exec-3] DEBUG com.barber.config.DataSourceConnectionPool  - Connection received jdbc:mysql://localhost:3306/barber_database?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL Connector/J 506610273
+[http-bio-8088-exec-3] DEBUG com.barber.config.DataSourceConnectionPool  - Connection received jdbc:mysql://localhost:3306/barber_database?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL Connector/J 506610273
+[http-bio-8088-exec-1] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /bootstrap.min.css
+[http-bio-8088-exec-1] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /bootstrap.min.css
+[http-bio-8088-exec-1] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/css/bootstrap.min.css
+[http-bio-8088-exec-1] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/css/bootstrap.min.css
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /font-awesome.min.css
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /font-awesome.min.css
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/css/font-awesome.min.css
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/css/font-awesome.min.css
+[http-bio-8088-exec-7] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /themify-icons.css
+[http-bio-8088-exec-7] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /themify-icons.css
+[http-bio-8088-exec-7] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/css/themify-icons.css
+[http-bio-8088-exec-7] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/css/themify-icons.css
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /owl.carousel.min.css
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /owl.carousel.min.css
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/css/owl.carousel.min.css
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/css/owl.carousel.min.css
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /magnific-popup.css
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /magnific-popup.css
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/css/magnific-popup.css
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/css/magnific-popup.css
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /flaticon.css
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /flaticon.css
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/css/flaticon.css
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/css/flaticon.css
+[http-bio-8088-exec-3] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /gijgo.css
+[http-bio-8088-exec-3] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /gijgo.css
+[http-bio-8088-exec-3] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/css/gijgo.css
+[http-bio-8088-exec-3] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/css/gijgo.css
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /animate.css
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /animate.css
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/css/animate.css
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/css/animate.css
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /slicknav.css
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /nice-select.css
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /slicknav.css
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /nice-select.css
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/css/slicknav.css
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/css/slicknav.css
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/css/nice-select.css
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/css/nice-select.css
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /style.css
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /style.css
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/css/style.css
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/css/style.css
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /barber_text.png
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /barber_text.png
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/banner/barber_text.png
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/banner/barber_text.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /1.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /1.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/service/1.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/service/1.png
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /about_lft.png
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /about_lft.png
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/about/about_lft.png
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/about/about_lft.png
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /2.png
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /2.png
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/service/2.png
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/service/2.png
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /logo.png
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /logo.png
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/logo.png
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/logo.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /modernizr-3.5.0.min.js
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /modernizr-3.5.0.min.js
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/vendor/modernizr-3.5.0.min.js
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/vendor/modernizr-3.5.0.min.js
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /owl.carousel.min.js
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /owl.carousel.min.js
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/owl.carousel.min.js
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/owl.carousel.min.js
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /popper.min.js
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /popper.min.js
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/popper.min.js
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/popper.min.js
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /jquery-1.12.4.min.js
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /jquery-1.12.4.min.js
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/vendor/jquery-1.12.4.min.js
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/vendor/jquery-1.12.4.min.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /bootstrap.min.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /bootstrap.min.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/bootstrap.min.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/bootstrap.min.js
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /ajax-form.js
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /ajax-form.js
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/ajax-form.js
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/ajax-form.js
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /isotope.pkgd.min.js
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /isotope.pkgd.min.js
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/isotope.pkgd.min.js
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/isotope.pkgd.min.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /jquery.counterup.min.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /jquery.counterup.min.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/jquery.counterup.min.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/jquery.counterup.min.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /wow.min.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /wow.min.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/wow.min.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/wow.min.js
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /waypoints.min.js
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /waypoints.min.js
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /imagesloaded.pkgd.min.js
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /imagesloaded.pkgd.min.js
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/imagesloaded.pkgd.min.js
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/imagesloaded.pkgd.min.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /jquery.slicknav.min.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /jquery.slicknav.min.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/jquery.slicknav.min.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/jquery.slicknav.min.js
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /nice-select.min.js
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /nice-select.min.js
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/nice-select.min.js
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/nice-select.min.js
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /scrollIt.js
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /scrollIt.js
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/scrollIt.js
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/scrollIt.js
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /jquery.scrollUp.min.js
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/waypoints.min.js
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/waypoints.min.js
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /jquery.scrollUp.min.js
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/jquery.scrollUp.min.js
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/jquery.scrollUp.min.js
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /jquery.form.js
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /jquery.form.js
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/jquery.form.js
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/jquery.form.js
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /gijgo.min.js
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /gijgo.min.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /plugins.js
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/gijgo.min.js
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/gijgo.min.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /plugins.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/plugins.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/plugins.js
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /jquery.magnific-popup.min.js
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /jquery.magnific-popup.min.js
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/jquery.magnific-popup.min.js
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/jquery.magnific-popup.min.js
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /jquery.validate.min.js
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /jquery.validate.min.js
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/jquery.validate.min.js
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/jquery.validate.min.js
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /jquery.ajaxchimp.min.js
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /jquery.ajaxchimp.min.js
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/jquery.ajaxchimp.min.js
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/jquery.ajaxchimp.min.js
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /contact.js
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /contact.js
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/contact.js
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/contact.js
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /mail-script.js
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /mail-script.js
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/mail-script.js
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/mail-script.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /main.js
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /main.js
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /6.png
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /5.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /4.png
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /3.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /4.png
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /5.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/service/4.png
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /6.png
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/js/main.js
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/service/6.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/service/4.png
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/service/5.png
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /3.png
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/service/5.png
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/service/6.png
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/js/main.js
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/service/3.png
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/service/3.png
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /7.png
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /7.png
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/service/7.png
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/service/7.png
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /person_1.jpg
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /person_1.jpg
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/images/person_1.jpg
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.StaticResourceFilter  - Non static resource: /images/person_1.jpg. New Path: /app/images/person_1.jpg
+[http-bio-8088-exec-6] INFO  com.barber.controller.DispatcherServlet  - Path: /person_1.jpg
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /1.png
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /1.png
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/gallery/1.png
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/gallery/1.png
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /video.png
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /video.png
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/gallery/video.png
+[http-bio-8088-exec-9] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/gallery/video.png
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /8.png
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /8.png
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/service/8.png
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/service/8.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /10.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /10.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/service/10.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/service/10.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /2.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /2.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/team/2.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/team/2.png
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /9.png
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /9.png
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/service/9.png
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/service/9.png
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /4.png
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /4.png
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/team/4.png
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/team/4.png
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /1.png
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /1.png
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/team/1.png
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/team/1.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /3.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /3.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/team/3.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/team/3.png
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /3.png
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /3.png
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/gallery/3.png
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/gallery/3.png
+[http-bio-8088-exec-1] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /2.png
+[http-bio-8088-exec-1] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /2.png
+[http-bio-8088-exec-1] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/gallery/2.png
+[http-bio-8088-exec-1] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/gallery/2.png
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /banner.png
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /banner.png
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/banner/banner.png
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/banner/banner.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /banner_service.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /banner_service.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/banner/banner_service.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/banner/banner_service.png
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /img.png
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /img.png
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/team/img.png
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/team/img.png
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /fontawesome-webfont.woff2
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /fontawesome-webfont.woff2
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/fonts/fontawesome-webfont.woff2
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/fonts/fontawesome-webfont.woff2
+[http-bio-8088-exec-1] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /themify.woff
+[http-bio-8088-exec-1] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /themify.woff
+[http-bio-8088-exec-1] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/fonts/themify.woff
+[http-bio-8088-exec-1] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/fonts/themify.woff
+[http-bio-8088-exec-1] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /Flaticon.woff2
+[http-bio-8088-exec-1] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /Flaticon.woff2
+[http-bio-8088-exec-1] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/fonts/Flaticon.woff2
+[http-bio-8088-exec-1] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/fonts/Flaticon.woff2
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /favicon.png
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /favicon.png
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/favicon.png
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/favicon.png
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /makeAnAppointment
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /makeAnAppointment
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/makeAnAppointment
+[http-bio-8088-exec-5] INFO  com.barber.controller.filter.StaticResourceFilter  - Non static resource: /makeAnAppointment. New Path: /app/makeAnAppointment
+[http-bio-8088-exec-5] INFO  com.barber.controller.DispatcherServlet  - Path: /makeAnAppointment
+[http-bio-8088-exec-5] INFO  com.barber.controller.command.info.MakeAppointmentCommand  - Get for /makeAnAppointment
+[http-bio-8088-exec-5] INFO  com.barber.controller.command.info.MakeAppointmentCommand  - Date param is null. Send redirect.
+[http-bio-8088-exec-5] INFO  com.barber.controller.DispatcherServlet  - Redirect to: /Barbershop/Barbershop/makeAnAppointment?date=2020-06-24
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /makeAnAppointment
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /makeAnAppointment
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/Barbershop/makeAnAppointment
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.StaticResourceFilter  - Non static resource: /Barbershop/makeAnAppointment. New Path: /app/Barbershop/makeAnAppointment
+[http-bio-8088-exec-10] INFO  com.barber.controller.DispatcherServlet  - Path: /makeAnAppointment
+[http-bio-8088-exec-10] INFO  com.barber.controller.command.info.MakeAppointmentCommand  - Get for /makeAnAppointment
+[http-bio-8088-exec-10] DEBUG com.barber.config.DataSourceConnectionPool  - Connection received jdbc:mysql://localhost:3306/barber_database?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL Connector/J 506610273
+[http-bio-8088-exec-10] ERROR com.barber.repository.AbstractDao  - Exception while getting all entities
+java.sql.SQLSyntaxErrorException: Table 'barber_database.maser' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at com.barber.repository.AbstractDao.getAll(AbstractDao.java:41)
+	at com.barber.repository.MasterDao.getAll(MasterDao.java:52)
+	at com.barber.service.ScheduleMastersService.getScheduleMasters(ScheduleMastersService.java:33)
+	at com.barber.controller.command.info.MakeAppointmentCommand.performGet(MakeAppointmentCommand.java:52)
+	at com.barber.controller.command.UniCommand.perform(UniCommand.java:15)
+	at com.barber.controller.DispatcherServlet.processRequest(DispatcherServlet.java:35)
+	at com.barber.controller.DispatcherServlet.doGet(DispatcherServlet.java:21)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:412)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:339)
+	at com.barber.controller.filter.StaticResourceFilter.doFilter(StaticResourceFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.LocalizationFilter.doFilter(LocalizationFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+[http-bio-8088-exec-10] INFO  com.barber.controller.command.info.MakeAppointmentCommand  - Master dto: 0
+[]
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /bradcam.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /bradcam.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/banner/bradcam.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/banner/bradcam.png
+[http-bio-8088-exec-7] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /gijgo-material.ttf
+[http-bio-8088-exec-7] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /gijgo-material.ttf
+[http-bio-8088-exec-7] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/fonts/gijgo-material.ttf
+[http-bio-8088-exec-7] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/fonts/gijgo-material.ttf
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /makeAnAppointment
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /makeAnAppointment
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/makeAnAppointment
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Non static resource: /makeAnAppointment. New Path: /app/makeAnAppointment
+[http-bio-8088-exec-4] INFO  com.barber.controller.DispatcherServlet  - Path: /makeAnAppointment
+[http-bio-8088-exec-4] INFO  com.barber.controller.command.info.MakeAppointmentCommand  - Get for /makeAnAppointment
+[http-bio-8088-exec-4] DEBUG com.barber.config.DataSourceConnectionPool  - Connection received jdbc:mysql://localhost:3306/barber_database?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL Connector/J 506610273
+[http-bio-8088-exec-4] ERROR com.barber.repository.AbstractDao  - Exception while getting all entities
+java.sql.SQLSyntaxErrorException: Table 'barber_database.maser' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at com.barber.repository.AbstractDao.getAll(AbstractDao.java:41)
+	at com.barber.repository.MasterDao.getAll(MasterDao.java:52)
+	at com.barber.service.ScheduleMastersService.getScheduleMasters(ScheduleMastersService.java:33)
+	at com.barber.controller.command.info.MakeAppointmentCommand.performGet(MakeAppointmentCommand.java:52)
+	at com.barber.controller.command.UniCommand.perform(UniCommand.java:15)
+	at com.barber.controller.DispatcherServlet.processRequest(DispatcherServlet.java:35)
+	at com.barber.controller.DispatcherServlet.doGet(DispatcherServlet.java:21)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:412)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:339)
+	at com.barber.controller.filter.StaticResourceFilter.doFilter(StaticResourceFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.LocalizationFilter.doFilter(LocalizationFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+[http-bio-8088-exec-4] INFO  com.barber.controller.command.info.MakeAppointmentCommand  - Master dto: 0
+[]
+[localhost-startStop-1] INFO  com.barber.controller.filter.LocalizationFilter  - Set init defaultLocale=en
+[localhost-startStop-1] INFO  com.barber.controller.filter.LocalizationFilter  - Set init defaultLocale=en
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.LocalizationFilter  - Set locale to session
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.LocalizationFilter  - Set bundle to session
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /makeAnAppointment
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /makeAnAppointment
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/makeAnAppointment
+[http-bio-8088-exec-2] INFO  com.barber.controller.filter.StaticResourceFilter  - Non static resource: /makeAnAppointment. New Path: /app/makeAnAppointment
+[http-bio-8088-exec-2] INFO  com.barber.controller.DispatcherServlet  - Path: /makeAnAppointment
+[http-bio-8088-exec-2] INFO  com.barber.controller.command.info.MakeAppointmentCommand  - Get for /makeAnAppointment
+[http-bio-8088-exec-2] DEBUG com.barber.config.DataSourceConnectionPool  - Connection received jdbc:mysql://localhost:3306/barber_database?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL Connector/J 1938440828
+[http-bio-8088-exec-2] ERROR com.barber.repository.AbstractDao  - Exception while getting all entities
+java.sql.SQLSyntaxErrorException: Table 'barber_database.maser' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at com.barber.repository.AbstractDao.getAll(AbstractDao.java:41)
+	at com.barber.repository.MasterDao.getAll(MasterDao.java:52)
+	at com.barber.service.ScheduleMastersService.getScheduleMasters(ScheduleMastersService.java:33)
+	at com.barber.controller.command.info.MakeAppointmentCommand.performGet(MakeAppointmentCommand.java:52)
+	at com.barber.controller.command.UniCommand.perform(UniCommand.java:15)
+	at com.barber.controller.DispatcherServlet.processRequest(DispatcherServlet.java:35)
+	at com.barber.controller.DispatcherServlet.doGet(DispatcherServlet.java:21)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:412)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:339)
+	at com.barber.controller.filter.StaticResourceFilter.doFilter(StaticResourceFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.LocalizationFilter.doFilter(LocalizationFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+[http-bio-8088-exec-2] INFO  com.barber.controller.command.info.MakeAppointmentCommand  - Master dto: 0
+[]
+[http-bio-8088-exec-3] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /favicon.png
+[http-bio-8088-exec-3] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /favicon.png
+[http-bio-8088-exec-3] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/static/img/favicon.png
+[http-bio-8088-exec-3] INFO  com.barber.controller.filter.StaticResourceFilter  - Static resource: /static/img/favicon.png
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /makeAnAppointment
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /makeAnAppointment
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/makeAnAppointment
+[http-bio-8088-exec-4] INFO  com.barber.controller.filter.StaticResourceFilter  - Non static resource: /makeAnAppointment. New Path: /app/makeAnAppointment
+[http-bio-8088-exec-4] INFO  com.barber.controller.DispatcherServlet  - Path: /makeAnAppointment
+[http-bio-8088-exec-4] INFO  com.barber.controller.command.info.MakeAppointmentCommand  - Get for /makeAnAppointment
+[http-bio-8088-exec-4] DEBUG com.barber.config.DataSourceConnectionPool  - Connection received jdbc:mysql://localhost:3306/barber_database?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL Connector/J 1938440828
+[http-bio-8088-exec-4] ERROR com.barber.repository.AbstractDao  - Exception while getting all entities
+java.sql.SQLSyntaxErrorException: Table 'barber_database.maser' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at com.barber.repository.AbstractDao.getAll(AbstractDao.java:41)
+	at com.barber.repository.MasterDao.getAll(MasterDao.java:52)
+	at com.barber.service.ScheduleMastersService.getScheduleMasters(ScheduleMastersService.java:33)
+	at com.barber.controller.command.info.MakeAppointmentCommand.performGet(MakeAppointmentCommand.java:52)
+	at com.barber.controller.command.UniCommand.perform(UniCommand.java:15)
+	at com.barber.controller.DispatcherServlet.processRequest(DispatcherServlet.java:35)
+	at com.barber.controller.DispatcherServlet.doGet(DispatcherServlet.java:21)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:412)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:339)
+	at com.barber.controller.filter.StaticResourceFilter.doFilter(StaticResourceFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.LocalizationFilter.doFilter(LocalizationFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+[http-bio-8088-exec-4] INFO  com.barber.controller.command.info.MakeAppointmentCommand  - Master dto: 0
+[]
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /makeAnAppointment
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /makeAnAppointment
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/makeAnAppointment
+[http-bio-8088-exec-6] INFO  com.barber.controller.filter.StaticResourceFilter  - Non static resource: /makeAnAppointment. New Path: /app/makeAnAppointment
+[http-bio-8088-exec-6] INFO  com.barber.controller.DispatcherServlet  - Path: /makeAnAppointment
+[http-bio-8088-exec-6] INFO  com.barber.controller.command.info.MakeAppointmentCommand  - Get for /makeAnAppointment
+[http-bio-8088-exec-6] DEBUG com.barber.config.DataSourceConnectionPool  - Connection received jdbc:mysql://localhost:3306/barber_database?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL Connector/J 1938440828
+[http-bio-8088-exec-6] ERROR com.barber.repository.AbstractDao  - Exception while getting all entities
+java.sql.SQLSyntaxErrorException: Table 'barber_database.maser' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at com.barber.repository.AbstractDao.getAll(AbstractDao.java:41)
+	at com.barber.repository.MasterDao.getAll(MasterDao.java:52)
+	at com.barber.service.ScheduleMastersService.getScheduleMasters(ScheduleMastersService.java:33)
+	at com.barber.controller.command.info.MakeAppointmentCommand.performGet(MakeAppointmentCommand.java:52)
+	at com.barber.controller.command.UniCommand.perform(UniCommand.java:15)
+	at com.barber.controller.DispatcherServlet.processRequest(DispatcherServlet.java:35)
+	at com.barber.controller.DispatcherServlet.doGet(DispatcherServlet.java:21)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:412)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:339)
+	at com.barber.controller.filter.StaticResourceFilter.doFilter(StaticResourceFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.LocalizationFilter.doFilter(LocalizationFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+[http-bio-8088-exec-6] INFO  com.barber.controller.command.info.MakeAppointmentCommand  - Master dto: 0
+[]
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /makeAnAppointment
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /makeAnAppointment
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/makeAnAppointment
+[http-bio-8088-exec-8] INFO  com.barber.controller.filter.StaticResourceFilter  - Non static resource: /makeAnAppointment. New Path: /app/makeAnAppointment
+[http-bio-8088-exec-8] INFO  com.barber.controller.DispatcherServlet  - Path: /makeAnAppointment
+[http-bio-8088-exec-8] INFO  com.barber.controller.command.info.MakeAppointmentCommand  - Get for /makeAnAppointment
+[http-bio-8088-exec-8] DEBUG com.barber.config.DataSourceConnectionPool  - Connection received jdbc:mysql://localhost:3306/barber_database?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL Connector/J 1938440828
+[http-bio-8088-exec-8] ERROR com.barber.repository.AbstractDao  - Exception while getting all entities
+java.sql.SQLSyntaxErrorException: Table 'barber_database.maser' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at com.barber.repository.AbstractDao.getAll(AbstractDao.java:41)
+	at com.barber.repository.MasterDao.getAll(MasterDao.java:52)
+	at com.barber.service.ScheduleMastersService.getScheduleMasters(ScheduleMastersService.java:33)
+	at com.barber.controller.command.info.MakeAppointmentCommand.performGet(MakeAppointmentCommand.java:52)
+	at com.barber.controller.command.UniCommand.perform(UniCommand.java:15)
+	at com.barber.controller.DispatcherServlet.processRequest(DispatcherServlet.java:35)
+	at com.barber.controller.DispatcherServlet.doGet(DispatcherServlet.java:21)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:412)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:339)
+	at com.barber.controller.filter.StaticResourceFilter.doFilter(StaticResourceFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.LocalizationFilter.doFilter(LocalizationFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+[http-bio-8088-exec-8] INFO  com.barber.controller.command.info.MakeAppointmentCommand  - Master dto: 0
+[]
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.AuthenticationFilter  - Path: /makeAnAppointment
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.AuthenticationFilter  - Page is not secured: /makeAnAppointment
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.StaticResourceFilter  - Do service, URI: /Barbershop/makeAnAppointment
+[http-bio-8088-exec-10] INFO  com.barber.controller.filter.StaticResourceFilter  - Non static resource: /makeAnAppointment. New Path: /app/makeAnAppointment
+[http-bio-8088-exec-10] INFO  com.barber.controller.DispatcherServlet  - Path: /makeAnAppointment
+[http-bio-8088-exec-10] INFO  com.barber.controller.command.info.MakeAppointmentCommand  - Get for /makeAnAppointment
+[http-bio-8088-exec-10] DEBUG com.barber.config.DataSourceConnectionPool  - Connection received jdbc:mysql://localhost:3306/barber_database?serverTimezone=UTC&useUnicode=true&characterEncoding=UTF-8, UserName=root@localhost, MySQL Connector/J 1938440828
+[http-bio-8088-exec-10] ERROR com.barber.repository.AbstractDao  - Exception while getting all entities
+java.sql.SQLSyntaxErrorException: Table 'barber_database.maser' doesn't exist
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+	at com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:97)
+	at com.mysql.cj.jdbc.exceptions.SQLExceptionsMapping.translateException(SQLExceptionsMapping.java:122)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeInternal(ClientPreparedStatement.java:953)
+	at com.mysql.cj.jdbc.ClientPreparedStatement.executeQuery(ClientPreparedStatement.java:1003)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at org.apache.tomcat.dbcp.dbcp.DelegatingPreparedStatement.executeQuery(DelegatingPreparedStatement.java:96)
+	at com.barber.repository.AbstractDao.getAll(AbstractDao.java:41)
+	at com.barber.repository.MasterDao.getAll(MasterDao.java:52)
+	at com.barber.service.ScheduleMastersService.getScheduleMasters(ScheduleMastersService.java:33)
+	at com.barber.controller.command.info.MakeAppointmentCommand.performGet(MakeAppointmentCommand.java:52)
+	at com.barber.controller.command.UniCommand.perform(UniCommand.java:15)
+	at com.barber.controller.DispatcherServlet.processRequest(DispatcherServlet.java:35)
+	at com.barber.controller.DispatcherServlet.doGet(DispatcherServlet.java:21)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:305)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.ApplicationDispatcher.invoke(ApplicationDispatcher.java:749)
+	at org.apache.catalina.core.ApplicationDispatcher.processRequest(ApplicationDispatcher.java:487)
+	at org.apache.catalina.core.ApplicationDispatcher.doForward(ApplicationDispatcher.java:412)
+	at org.apache.catalina.core.ApplicationDispatcher.forward(ApplicationDispatcher.java:339)
+	at com.barber.controller.filter.StaticResourceFilter.doFilter(StaticResourceFilter.java:36)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.AuthenticationFilter.doFilter(AuthenticationFilter.java:31)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.EncodingFilter.doFilter(EncodingFilter.java:30)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at com.barber.controller.filter.LocalizationFilter.doFilter(LocalizationFilter.java:37)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:312)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:835)
+[http-bio-8088-exec-10] INFO  com.barber.controller.command.info.MakeAppointmentCommand  - Master dto: 0
+[]

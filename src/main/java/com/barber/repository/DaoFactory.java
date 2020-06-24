@@ -15,6 +15,10 @@ public class DaoFactory {
     static {
         daoMap.put(DaoType.USER, new UserDao(CONNECTION_FACTORY));
         daoMap.put(DaoType.FEEDBACK, new FeedbackDao(CONNECTION_FACTORY));
+        daoMap.put(DaoType.SKILLS, new SkillsDao(CONNECTION_FACTORY));
+        daoMap.put(DaoType.MASTER, new MasterDao(CONNECTION_FACTORY));
+        daoMap.put(DaoType.MASTERSCHEDULES, new ScheduleDao(CONNECTION_FACTORY));
+        daoMap.put(DaoType.SERVICE, new ServiceDao(CONNECTION_FACTORY));
 
     }
 

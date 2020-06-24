@@ -21,21 +21,21 @@ public class MasterDao extends AbstractDao<Master> {
     private static final String COLUMN_USER_ID = "userId";
     private static final String COLUMN_PHOTO = "photo";
 
-    private static final String SELECT_ALL_MASTER = "SELECT * FROM `maser`";
+    private static final String SELECT_ALL_MASTER = "SELECT * FROM `master`";
 
-    private static final String INSERT_INTO_MASTER = "INSERT INTO `maser` ("+
+    private static final String INSERT_INTO_MASTER = "INSERT INTO `master` ("+
              COLUMN_USER_ID+ ", "+
              COLUMN_PHOTO+") VALUE (?, ?)";
 
 
-    private static final String UPDATE_MASTER = "UPDATE `maser` SET "
+    private static final String UPDATE_MASTER = "UPDATE `master` SET "
             + COLUMN_USER_ID + "= ? WHERE "
             + COLUMN_ID + " = ?";
 
-    private static final String DELETE_MASTER = "DELETE FROM `maser` "
+    private static final String DELETE_MASTER = "DELETE FROM `master` "
             + "WHERE " + COLUMN_ID + " = ?";
 
-    private static final String GET_BY_ID = "SELECT * FROM `maser` WHERE id = ?";
+    private static final String GET_BY_ID = "SELECT * FROM `master` WHERE id = ?";
 
     @Override
     public Master getById(int id, boolean full) {

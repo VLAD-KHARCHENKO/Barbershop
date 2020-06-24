@@ -54,17 +54,15 @@
         <h2 style="text-align: center; color: gray; padding-top: 150px;">
             <fmt:message key="schedule.empty.msg.part.one" /><br> <fmt:message key="schedule.empty.msg.part.two" /></h2>
     </c:if>
-    <c:forEach items="${sessions}" var="movie">
+    <c:forEach items="${schedules}" var="schedule">
         <div class="movie-card">
             <div class="movie-card__container">
-                <a href="${movie.trailerUrl}" target="_blank">
+
                     <div class="movie-cover">
-                        <img class="play-icon" src="static/img/play.png" alt="cover"/>
-                        <img class="cover-img"
-                             src="${movie.coverImgPath}"
-                             alt="cover"/>
+                        <img class="play-icon" src="${shedule.photoImgPath}" alt="cover"/>
+
                     </div>
-                </a>
+
 
                 <div class="movie-card__background">
                     <img class="background-img"
@@ -72,14 +70,16 @@
                 </div>
 
                 <div class="movie-description">
-                    <div class="movie-title">${movie.title}</div>
+                    <div class="movie-title">${sh}</div>
                     <p class="movie-duration">
-                        <fmt:message key="schedule.duration"/>:
-                        ${movie.duration}<fmt:message key="schedule.min"/>
+                        <fmt:message key="${shedule.master.firstName}"/>:
+                       <fmt:message key="schedule.min"/>
                     </p>
 
-                    <c:forEach items="${movie.movieSessionTimes}" var="time">
-                        <a class="tag" href="movie-session/${time.getMovieSessionId()}">${time.getTimeView()}</a>
+                    <c:forEach items="${shedule.servicesList}" var="service">
+                        ${service.serviceName}
+                        ${service.price}
+
                     </c:forEach>
                 </div>
             </div>
